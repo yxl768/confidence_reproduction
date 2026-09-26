@@ -1,0 +1,138 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Collecting numpy==1.23.5
+  Downloading http://mirrors.aliyun.com/pypi/packages/e4/f3/679b3a042a127de0d7c84874913c3e23bb84646eb3bc6ecab3f8c872edc9/numpy-1.23.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.1 MB)
+     ━━━━━ 17.1… 1.1  eta 0:00:…
+           MB    MB/s           
+Collecting scipy==1.10.1
+  Downloading http://mirrors.aliyun.com/pypi/packages/1f/4b/3bacad9a166350cb2e518cea80ab891016933cc1653f15c90279512c5fa9/scipy-1.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.4 MB)
+     ━━━━━ 34.4… 1.1  eta 0:00:…
+           MB    MB/s           
+Collecting pandas==1.5.3
+  Downloading http://mirrors.aliyun.com/pypi/packages/49/e2/79e46612dc25ebc7603dc11c560baa7266c90f9e48537ecf1a02a0dd6bff/pandas-1.5.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.1 MB)
+     ━━━━━ 12.1… 936… eta 0:00:…
+           MB    kB/s           
+Collecting scikit-learn==1.2.2
+  Downloading http://mirrors.aliyun.com/pypi/packages/fa/1e/36d7609e84b50d4a2e5bc43cd5013d9ea885799e5813a1e9cf5bb1afd3f4/scikit_learn-1.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (9.6 MB)
+     ━━━━━ 9.6/… 618… eta 0:00:…
+           MB    kB/s           
+Collecting networkx==2.8.8
+  Downloading http://mirrors.aliyun.com/pypi/packages/42/31/d2f89f1ae42718f8c8a9e440ebe38d7d5fe1e0d9eb9178ce779e365b3ab0/networkx-2.8.8-py3-none-any.whl (2.0 MB)
+     ━━━━━ 2.0/… 710… eta 0:00:…
+           MB    kB/s           
+Collecting pyyaml==6.0.2
+  Downloading http://mirrors.aliyun.com/pypi/packages/6b/4e/1523cb902fd98355e2e9ea5e5eb237cbc5f3ad5f3075fa65087aa0ecb669/PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (751 kB)
+     ━━━━━ 751.… 723… eta 0:00:…
+           kB    kB/s           
+Collecting rdkit==2022.9.5
+  Downloading http://mirrors.aliyun.com/pypi/packages/b4/98/645fb2b0482c254fcbe1710da1ed832203f094e2665d3a5a48fb27489973/rdkit-2022.9.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (29.4 MB)
+     ━━━━━ 29.4… 910… eta 0:00:…
+           MB    kB/s           
+Collecting torch-geometric==2.3.1
+  Downloading http://mirrors.aliyun.com/pypi/packages/06/a5/9f5af849c4185da5ea55f70ef17e23f93355cd4e989d82cfc8ba2d8747af/torch_geometric-2.3.1.tar.gz (661 kB)
+     ━━━━━ 661.… 1.5  eta 0:00:…
+           kB    MB/s           
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting fair-esm==2.0.0
+  Downloading http://mirrors.aliyun.com/pypi/packages/79/26/1cc82571f507b9dae3b36d4242764edc6e4ae9f3f81f44a6382c15fad565/fair_esm-2.0.0-py3-none-any.whl (93 kB)
+     ━━━━━ 93.1… 13.1 eta 0:00:…
+           kB    MB/s           
+Collecting biopython==1.79
+  Downloading http://mirrors.aliyun.com/pypi/packages/56/84/f831d2fe72b9d0535bf6e8494da16d2070c8bf38d323a5cc06e52a8e3710/biopython-1.79-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.7 MB)
+     ━━━━━ 2.7/… 1.2  eta 0:00:…
+           MB    MB/s           
+Collecting biopandas==0.4.1
+  Downloading http://mirrors.aliyun.com/pypi/packages/7e/53/801b766034474df742f523a5b5aed4ac4e098e739ad18d7f6475d2a63e70/biopandas-0.4.1-py2.py3-none-any.whl (878 kB)
+     ━━━━━ 879.… 1.3  eta 0:00:…
+           kB    MB/s           
+Collecting e3nn==0.5.0
+  Downloading http://mirrors.aliyun.com/pypi/packages/b7/23/c2f9681ebd6afbcc0b23c16937fc7f634c42a17da2c76f98d0906ec1ad71/e3nn-0.5.0-py3-none-any.whl (117 kB)
+     ━━━━━ 117.… 3.1  eta 0:00:…
+           kB    MB/s           
+Collecting prody==2.4.1
+  Downloading http://mirrors.aliyun.com/pypi/packages/c7/1c/18ad5d7f00c3c2ef3d5ea2e63c0cd1c10e8cb123cc1b4274d41828debb31/ProDy-2.4.1.tar.gz (21.7 MB)
+     ━━━━━ 21.7… 1.2  eta 0:00:…
+           MB    MB/s           
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting spyrmsd==0.5.2
+  Downloading http://mirrors.aliyun.com/pypi/packages/f7/0e/cffed64e2df64a1f9078498bbb2f8ef1ca16e09f1cb0cbd35820e26b7086/spyrmsd-0.5.2-py3-none-any.whl (31 kB)
+Collecting plotly==5.9.0
+  Downloading http://mirrors.aliyun.com/pypi/packages/2d/6a/2c2e9ed190066646bbf1620c0b67f8e363e0024ee7bf0d3ea1fdcc9af3ae/plotly-5.9.0-py2.py3-none-any.whl (15.2 MB)
+     ━━━━━ 15.2… 1.1  eta 0:00:…
+           MB    MB/s           
+Collecting pytz>=2020.1
+  Downloading http://mirrors.aliyun.com/pypi/packages/0f/7b/39c34ca613b0b198cb866466651b26b045e2009864c5183c979a3b83f383/pytz-2026.3.post1-py2.py3-none-any.whl (508 kB)
+     ━━━━━ 508.… 1.2  eta 0:00:…
+           kB    MB/s           
+Requirement already satisfied: python-dateutil>=2.8.1 in /root/miniconda3/lib/python3.10/site-packages (from pandas==1.5.3) (2.8.2)
+Collecting threadpoolctl>=2.0.0
+  Downloading http://mirrors.aliyun.com/pypi/packages/43/3f/f88a53f60a472b46f4023f56d204dd7de33d34c5d2acbfa0d70a674e639e/threadpoolctl-3.7.0-py3-none-any.whl (26 kB)
+Collecting joblib>=1.1.1
+  Downloading http://mirrors.aliyun.com/pypi/packages/18/53/84099323c2ec4be98d935f63c033ac4151ee83836ca1050ede3b3aadf155/joblib-1.6.0-py3-none-any.whl (306 kB)
+     ━━━━━ 306.… 1.4  eta 0:00:…
+           kB    MB/s           
+Requirement already satisfied: Pillow in /root/miniconda3/lib/python3.10/site-packages (from rdkit==2022.9.5) (10.2.0)
+Requirement already satisfied: requests in /root/miniconda3/lib/python3.10/site-packages (from torch-geometric==2.3.1) (2.31.0)
+Requirement already satisfied: psutil>=5.8.0 in /root/miniconda3/lib/python3.10/site-packages (from torch-geometric==2.3.1) (5.9.7)
+Requirement already satisfied: pyparsing in /root/miniconda3/lib/python3.10/site-packages (from torch-geometric==2.3.1) (3.1.1)
+Requirement already satisfied: tqdm in /root/miniconda3/lib/python3.10/site-packages (from torch-geometric==2.3.1) (4.64.1)
+Requirement already satisfied: jinja2 in /root/miniconda3/lib/python3.10/site-packages (from torch-geometric==2.3.1) (3.1.2)
+Requirement already satisfied: setuptools in /root/miniconda3/lib/python3.10/site-packages (from biopandas==0.4.1) (65.5.0)
+Requirement already satisfied: sympy in /root/miniconda3/lib/python3.10/site-packages (from e3nn==0.5.0) (1.12)
+Collecting opt-einsum-fx>=0.1.4
+  Downloading http://mirrors.aliyun.com/pypi/packages/8d/4c/e0370709aaf9d7ceb68f975cac559751e75954429a77e83202e680606560/opt_einsum_fx-0.1.4-py3-none-any.whl (13 kB)
+Requirement already satisfied: torch>=1.8.0 in /root/miniconda3/lib/python3.10/site-packages (from e3nn==0.5.0) (2.1.2+cu121)
+Collecting tenacity>=6.2.0
+  Downloading http://mirrors.aliyun.com/pypi/packages/d7/c1/eb8f9debc45d3b7918a32ab756658a0904732f75e555402972246b0b8e71/tenacity-9.1.4-py3-none-any.whl (28 kB)
+Collecting cloudpickle>=3.0
+  Downloading http://mirrors.aliyun.com/pypi/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Requirement already satisfied: packaging in /root/miniconda3/lib/python3.10/site-packages (from opt-einsum-fx>=0.1.4->e3nn==0.5.0) (23.2)
+Collecting opt-einsum
+  Downloading http://mirrors.aliyun.com/pypi/packages/23/cd/066e86230ae37ed0be70aae89aabf03ca8d9f39c8aea0dec8029455b5540/opt_einsum-3.4.0-py3-none-any.whl (71 kB)
+     ━━━━━ 71.9… 13.4 eta 0:00:…
+           kB    MB/s           
+Requirement already satisfied: six>=1.5 in /root/miniconda3/lib/python3.10/site-packages (from python-dateutil>=2.8.1->pandas==1.5.3) (1.16.0)
+Requirement already satisfied: fsspec in /root/miniconda3/lib/python3.10/site-packages (from torch>=1.8.0->e3nn==0.5.0) (2023.12.2)
+Requirement already satisfied: filelock in /root/miniconda3/lib/python3.10/site-packages (from torch>=1.8.0->e3nn==0.5.0) (3.13.1)
+Requirement already satisfied: typing-extensions in /root/miniconda3/lib/python3.10/site-packages (from torch>=1.8.0->e3nn==0.5.0) (4.9.0)
+Requirement already satisfied: triton==2.1.0 in /root/miniconda3/lib/python3.10/site-packages (from torch>=1.8.0->e3nn==0.5.0) (2.1.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /root/miniconda3/lib/python3.10/site-packages (from jinja2->torch-geometric==2.3.1) (2.1.3)
+Requirement already satisfied: certifi>=2017.4.17 in /root/miniconda3/lib/python3.10/site-packages (from requests->torch-geometric==2.3.1) (2022.12.7)
+Requirement already satisfied: charset-normalizer<4,>=2 in /root/miniconda3/lib/python3.10/site-packages (from requests->torch-geometric==2.3.1) (2.0.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /root/miniconda3/lib/python3.10/site-packages (from requests->torch-geometric==2.3.1) (1.26.13)
+Requirement already satisfied: idna<4,>=2.5 in /root/miniconda3/lib/python3.10/site-packages (from requests->torch-geometric==2.3.1) (3.4)
+Requirement already satisfied: mpmath>=0.19 in /root/miniconda3/lib/python3.10/site-packages (from sympy->e3nn==0.5.0) (1.3.0)
+Building wheels for collected packages: torch-geometric, prody
+  Building wheel for torch-geometric (pyproject.toml): started
+  Building wheel for torch-geometric (pyproject.toml): finished with status 'done'
+  Created wheel for torch-geometric: filename=torch_geometric-2.3.1-py3-none-any.whl size=910496 sha256=e6c82ceb3b1067d0e91a73fcc35ffcdcf415b8d2866f22304a6f4ab13e9551f0
+  Stored in directory: /root/.cache/pip/wheels/06/95/33/a20e1fd723a9f5f494c87bd7ecd1bfbdfc058480cab4520b2d
+  Building wheel for prody (pyproject.toml): started
+  Building wheel for prody (pyproject.toml): finished with status 'done'
+  Created wheel for prody: filename=prody-2.4.1-cp310-cp310-linux_x86_64.whl size=22152008 sha256=fd851dbfdda03e218b2c474d4850f01c87ba2a43ded918c79c6d2c1adab18b6d
+  Stored in directory: /root/.cache/pip/wheels/d3/d3/50/759e1458a1b41e365fc0367bb60c17235bbae0a68f2e78cbc8
+Successfully built torch-geometric prody
+Installing collected packages: pytz, fair-esm, threadpoolctl, tenacity, pyyaml, opt-einsum, numpy, networkx, cloudpickle, scipy, rdkit, plotly, pandas, joblib, biopython, spyrmsd, scikit-learn, prody, opt-einsum-fx, biopandas, torch-geometric, e3nn
+  Attempting uninstall: pyyaml
+    Found existing installation: PyYAML 6.0.1
+    Uninstalling PyYAML-6.0.1:
+      Successfully uninstalled PyYAML-6.0.1
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.26.3
+    Uninstalling numpy-1.26.3:
+      Successfully uninstalled numpy-1.26.3
+  Attempting uninstall: networkx
+    Found existing installation: networkx 3.2.1
+    Uninstalling networkx-3.2.1:
+      Successfully uninstalled networkx-3.2.1
+Successfully installed biopandas-0.4.1 biopython-1.79 cloudpickle-3.1.2 e3nn-0.5.0 fair-esm-2.0.0 joblib-1.6.0 networkx-2.8.8 numpy-1.23.5 opt-einsum-3.4.0 opt-einsum-fx-0.1.4 pandas-1.5.3 plotly-5.9.0 prody-2.4.1 pytz-2026.3.post1 pyyaml-6.0.2 rdkit-2022.9.5 scikit-learn-1.2.2 scipy-1.10.1 spyrmsd-0.5.2 tenacity-9.1.4 threadpoolctl-3.7.0 torch-geometric-2.3.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv

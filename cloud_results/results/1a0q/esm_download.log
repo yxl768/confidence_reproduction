@@ -1,0 +1,2 @@
+Downloading: "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt" to /root/autodl-tmp/confidence_reproduction/confidence_reproduction/cache/torch/hub/checkpoints/esm2_t33_650M_UR50D.pt
+Downloading: "https://dl.fbaipublicfiles.com/fair-esm/regression/esm2_t33_650M_UR50D-contact-regression.pt" to /root/autodl-tmp/confidence_reproduction/confidence_reproduction/cache/torch/hub/checkpoints/esm2_t33_650M_UR50D-contact-regression.pt

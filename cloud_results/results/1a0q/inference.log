@@ -1,0 +1,29 @@
+Generating ESM language model embeddings
+Processing 1 of 1 batches (2 sequences)
+HAPPENING | confidence model uses different type of graphs than the score model. Loading (or creating if not existing) the data for the confidence model now.
+Faster Tensor Product
+Faster Tensor Product
+Faster Tensor Product
+Faster Tensor Product
+Faster Tensor Product
+Faster Tensor Product
+Faster Tensor Product
+Faster Tensor Product
+Faster Tensor Product
+Faster Tensor Product
+Faster Tensor Product
+/root/miniconda3/lib/python3.10/site-packages/torch/overrides.py:110: UserWarning: 'has_cuda' is deprecated, please use 'torch.backends.cuda.is_built()'
+  torch.has_cuda,
+/root/miniconda3/lib/python3.10/site-packages/torch/overrides.py:111: UserWarning: 'has_cudnn' is deprecated, please use 'torch.backends.cudnn.is_available()'
+  torch.has_cudnn,
+/root/miniconda3/lib/python3.10/site-packages/torch/overrides.py:117: UserWarning: 'has_mps' is deprecated, please use 'torch.backends.mps.is_built()'
+  torch.has_mps,
+/root/miniconda3/lib/python3.10/site-packages/torch/overrides.py:118: UserWarning: 'has_mkldnn' is deprecated, please use 'torch.backends.mkldnn.is_available()'
+  torch.has_mkldnn,
+/root/miniconda3/lib/python3.10/site-packages/torch/jit/_check.py:178: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  warnings.warn(
+Size of test dataset:  1
+0it [00:00, ?it/s]1it [00:07,  7.11s/it]1it [00:07,  7.11s/it]
+Failed for 0 complexes
+Skipped 0 complexes
+Results are in ../results/1a0q

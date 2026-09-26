@@ -1,0 +1,57 @@
+{
+  "reference": "/root/autodl-tmp/confidence_reproduction/confidence_reproduction/official/data/1a0q/1a0q_ligand.sdf",
+  "n_poses": 8,
+  "top1_rmsd_angstrom": 1.8345,
+  "top1_under_2_angstrom": true,
+  "scoring": "heavy atoms; graph symmetry correction; no centering or alignment",
+  "poses": [
+    {
+      "rank": 1,
+      "pose": "/root/autodl-tmp/confidence_reproduction/confidence_reproduction/results/1a0q/1a0q/rank1.sdf",
+      "confidence": 4.03,
+      "symmetry_rmsd_angstrom": 1.8345
+    },
+    {
+      "rank": 2,
+      "pose": "/root/autodl-tmp/confidence_reproduction/confidence_reproduction/results/1a0q/1a0q/rank2_confidence3.31.sdf",
+      "confidence": 3.31,
+      "symmetry_rmsd_angstrom": 1.4639
+    },
+    {
+      "rank": 3,
+      "pose": "/root/autodl-tmp/confidence_reproduction/confidence_reproduction/results/1a0q/1a0q/rank3_confidence1.72.sdf",
+      "confidence": 1.72,
+      "symmetry_rmsd_angstrom": 2.1295
+    },
+    {
+      "rank": 4,
+      "pose": "/root/autodl-tmp/confidence_reproduction/confidence_reproduction/results/1a0q/1a0q/rank4_confidence1.55.sdf",
+      "confidence": 1.55,
+      "symmetry_rmsd_angstrom": 2.3828
+    },
+    {
+      "rank": 5,
+      "pose": "/root/autodl-tmp/confidence_reproduction/confidence_reproduction/results/1a0q/1a0q/rank5_confidence1.51.sdf",
+      "confidence": 1.51,
+      "symmetry_rmsd_angstrom": 1.9371
+    },
+    {
+      "rank": 6,
+      "pose": "/root/autodl-tmp/confidence_reproduction/confidence_reproduction/results/1a0q/1a0q/rank6_confidence1.15.sdf",
+      "confidence": 1.15,
+      "symmetry_rmsd_angstrom": 2.073
+    },
+    {
+      "rank": 7,
+      "pose": "/root/autodl-tmp/confidence_reproduction/confidence_reproduction/results/1a0q/1a0q/rank7_confidence0.95.sdf",
+      "confidence": 0.95,
+      "symmetry_rmsd_angstrom": 2.3685
+    },
+    {
+      "rank": 8,
+      "pose": "/root/autodl-tmp/confidence_reproduction/confidence_reproduction/results/1a0q/1a0q/rank8_confidence0.12.sdf",
+      "confidence": 0.12,
+      "symmetry_rmsd_angstrom": 2.4218
+    }
+  ]
+}
