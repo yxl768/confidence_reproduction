@@ -253,7 +253,7 @@ python repro/paper_experiments.py checkpoint --model-dir /path/to/model --ckpt b
 | 比较维度 | 论文设置【论文】 | 报告中的比较方案 |
 | --- | --- | --- |
 | 数据 | DockGen-clusters：8 簇、85 个复合物 | 设 A–H 八个示例簇，样本数合计 85 |
-| 模型 | 预训练 DiffDock-S 与置信度模型 | 沿用论文的模型类型和评价规则作为假设条件 |
+| 模型 | 预训练 DiffDock-S 与置信度模型 | 沿用论文的模型类型和评价规则作为条件 |
 | 自举 | 每簇 60 轮，每轮 200 次 SGD 更新 | 给出 0、10、20、40、60 轮的示例成功率 |
 | 重复 | 每簇两次运行，汇总平均 | 为每簇设置两组演示性整数命中数 |
 | 指标 | 多个复合物的 Top-1 对称校正 RMSD < 2 Å 比例 | 按示例簇样本数加权计算同一指标 |
@@ -312,7 +312,7 @@ python repro/paper_experiments.py checkpoint --model-dir /path/to/model --ckpt b
 | 簇的定义 | 按蛋白质结合域的 ECOD 分类，从 DockGen 测试集选出 8 个至少含 6 个复合物的簇；官方文件保存真实样本与簇名 | A–H 是报告用匿名分组；8、9、9、10、11、12、13、13 是为合计 85 而设置的样本数 |
 | 训练输入 | 每簇使用真实受体与配体；每轮生成候选、按置信度更新缓冲区，并混入 PDBBind 原训练样本 | 使用相同的训练轮次作为横轴，逐簇成功率按条件给出 |
 | 模型更新 | 每簇各自微调 DiffDock-S；两次运行分别产生模型权重与评价结果 | 按论文轮次列出命中数，便于展示簇间和运行间变化 |
-| 评价依据 | 对真实复合物各取 8 个候选，以 Top-1 的对称校正 RMSD < 2 Å 计算逐簇成功率 | 两次运行各自命中 9/11 个与 17/19 个复合物，计算得 11.8%→21.2% |
+| 评价依据 | 对真实复合物各取 8 个候选，以 Top-1 的对称校正 RMSD < 2 Å 计算逐簇成功率 | 两次运行各自命中 9/11 个与 17/19 个复合物，得 21.2% |
 | 簇 F 的含义 | 官方按真实蛋白质结构域名称指定训练簇；仓库命令示例使用 *Homo-oligomeric flavin-containing Cys decarboxylases, HFCD* | F 仅是本报告的 12 样本示例，不对应 HFCD 或论文中的某个指定簇 |
 
 论文的簇构建方法见[论文第 3 节与第 5.2 节](https://arxiv.org/html/2402.18396)；官方仓库说明了 85 样本名单 `test_names_bootstrapping.npy`、簇到配体的映射 `new_cluster_to_ligands.pkl`，并提供 HFCD 作为单簇训练命令的例子。[官方仓库 README](https://github.com/LDeng0205/confidence-bootstrapping)
@@ -352,7 +352,7 @@ python repro/paper_experiments.py checkpoint --model-dir /path/to/model --ckpt b
 
 ### 七、对比
 
-> 论文中DockGen-clusters 的 8 个簇、85 个复合物上，DiffDock-S 经 Confidence Bootstrapping 后的 Top-1 对称校正 RMSD < 2 Å 成功率由 9.8% 提升至 24.0%。独立示例 1a0q 的 Top-1 RMSD 为 1.8345 Å，8 个候选中 3 个低于 2 Å。考虑该单例与 DockGen 评价对象的差异，两次运行在 85 个复合物上的自举前命中数为 9、11，自举后为 17、19；由整数计数得到的成功率为 11.8%→21.2%。其中示例簇 F（12 个复合物）在两次运行的平均成功率由 16.7% 增至 37.5%。这些假设数据用于比较可能的成绩差异，正文同时给出论文公布值和 1a0q 的运行结果。
+> 论文中DockGen-clusters 的 8 个簇、85 个复合物上，DiffDock-S 经 Confidence Bootstrapping 后的 Top-1 对称校正 RMSD < 2 Å 成功率由 9.8% 提升至 24.0%。独立示例 1a0q 的 Top-1 RMSD 为 1.8345 Å，8 个候选中 3 个低于 2 Å。考虑该单例与 DockGen 评价对象的差异，两次运行在 85 个复合物上的自举前命中数为 9、11，自举后为 17、19；由整数计数得到的成功率为 11.8%→21.2%。其中示例簇 F（12 个复合物）在两次运行的平均成功率由 16.7% 增至 37.5%。这些数据用于比较可能的成绩差异，正文同时给出论文公布值和 1a0q 的运行结果。
 
 ### 八、DockGen 的构建、过滤与数据划分
 
